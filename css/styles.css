@@ -5,7 +5,7 @@ body {
   color: orange;
   background-image: url("https://i.ytimg.com/vi/AtGTot98UAo/maxresdefault.jpg");
   background-repeat: no-repeat;
-  background-size: stretch;
+  background-size: cover;
 }
 
 
@@ -51,15 +51,19 @@ h2 {
   z-index: -1;
 }
 
-#clac img{
- height: 500px;
- width: 400px;
- z-index: 10;
+#exp {
+  display: none;
 }
 
 #clac img{
- z-index: 10;
+ position: absolute;
+ top: 230px;
+ left: 360px;
+ height: 500px;
+ width: 400px;
+ z-index: -6;
 }
+
 
 
 #arm1 img{
