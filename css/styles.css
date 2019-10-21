@@ -1,0 +1,120 @@
+body {
+  font-family: 'Spectral';
+  font-size: 19px;
+  text-align: center;
+  color: orange;
+  background-image: url("https://i.ytimg.com/vi/AtGTot98UAo/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: stretch;
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+.profile img{
+  height: 150px;
+  width: 150px;
+}
+
+
+#light-1 img {
+  position: absolute;
+  height: 900px;
+  width: 600px;
+  top: 50px;
+  left: 250px;
+
+}
+
+#clac img{
+ height: 500px;
+ width: 400px;
+ z-index: 10;
+}
+
+#clac img{
+ z-index: 10;
+}
+
+
+#arm1 img{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  height: 200px;
+  width: 400px;
+  z-index: 2;
+}
+
+#arm2 img{
+  z-index: 2;
+  position: absolute;
+  top: 500px;
+  left: 700px;
+  height: 200px;
+  width: 200px;
+  transform: rotate(340deg);
+}
+
+#arm3 img {
+  z-index: 0;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  height: 300px;
+  width: 400px;
+  transform: rotate(20deg);
+
+}
+
+#eye1 {
+  position: absolute;
+  left: 680px;
+  top: 310px;
+  z-index: 5;
+
+}
+
+#eye2 img{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  height: 100px;
+  width: 300px;
+}
+
+ #eye3 {
+   position: absolute;
+   top: 500px;
+   left: 480px;
+ }
+
+ #legs1 img{
+   position: absolute;
+   top: 720px;
+   left: 300px;
+   height: 300px;
+   width: 500px;
+   transform: rotate(220deg);
+ }
+
+
+
+ #mouth1 img{
+   position: absolute;
+   top: 350px;
+   left: 450px;
+   height: 100px;
+   width: 200px;
+ }
+
+ #speech {
+   position: absolute;
+   top: 250px;
+   left: 750px;
+   border-style: solid;
+   border-width: thick;
+   border-color: black;
+   border-radius: 200px;
+ }
