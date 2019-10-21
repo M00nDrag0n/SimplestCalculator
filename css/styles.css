@@ -8,8 +8,23 @@ body {
   background-size: stretch;
 }
 
+
+h1 {
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  width: 300px;
+  margin-left: 400px;
+}
+
 h2 {
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
   margin-bottom: 100px;
+
 }
 
 .profile img{
@@ -25,6 +40,15 @@ h2 {
   top: 50px;
   left: 250px;
 
+}
+
+#light-2 img {
+  position: absolute;
+  top: 150px;
+  left: 310px;
+  height: 650px;
+  width: 500px;
+  z-index: -1;
 }
 
 #clac img{
@@ -110,9 +134,10 @@ h2 {
  }
 
  #speech {
+   background-color: black;
    position: absolute;
    top: 250px;
-   left: 750px;
+   left: 800px;
    border-style: solid;
    border-width: thick;
    border-color: black;
