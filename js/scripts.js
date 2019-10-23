@@ -32,13 +32,32 @@ function clickME(){
 
 
 function extraSpeech() {
-var number1 = parseInt(prompt("FEED ME! Commas are T0XiC and So are Other symbols! ANYTHING BUT THOSE!!!"));
-var etc = (prompt("WHAT ARE THESE!!!"));
+var number1 = parseInt(prompt("FEED ME A NUMBER!!!"));
+var etc = (prompt("WHAT ARE YOU FEEDING ME WITH!!!"));
 var result2 = (number1 +  etc);
 alert("MY TOTAL STOMACH CONTENTS ARE: " + result2);
 alert("THANK YOU");
 alert("I WILL FOLLOW YOU HOME AND EAT ALL OF YOUR " + etc)
 }
+
+var add = function(number1, number2) {
+  return number1 + number2;
+};
+
+var subtract = function(number1, number2) {
+  return number1 - number2;
+};
+
+
+var multiply = function(number1, number2) {
+  return number1 * number2;
+};
+
+
+var divide = function(number1, number2) {
+  return number1 / number2;
+};
+
 
 // });
 // });
@@ -53,3 +72,16 @@ alert("I WILL FOLLOW YOU HOME AND EAT ALL OF YOUR " + etc)
 //
 // // if else function, jquery, hover .show(), .hide();
 // });
+
+
+$(document).ready(function() {
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    var number1 = parseInt($("#add1").val());
+    var number2 = parseInt($("#add2").val());
+    console.log(add(number1, number2));
+    var result = add(number1, number2);
+    $("#output").text(result);
+
+  });
+});
